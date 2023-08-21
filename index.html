@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html onmousemove="glassMove();">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
+  <script src="anim.js"></script>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins&family=Rubik:wght@500&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="styling.css" />
+
+</head>
+<body id="bod">
+    <div id="flashbar"></div>
+  <nav class="navbar">
+    
+      <div id="collapse-nav">
+        <div class="button" id="toggle-button" onclick="toggleNav();">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+          </div>
+        <div id="list">
+            <div class="list-item link">
+                <i class="bi bi-bar-chart-steps"></i>
+                <h2 href="#" onclick="redir();">Link 1</h2>
+            </div>
+            <div class="list-item link">
+                <i class="bi bi-joystick"></i>
+                <h2 href="#" onclick="redir();">Link 2</h2>
+            </div>
+            <div class="list-item link">
+                <i class="bi bi-browser-safari"></i>
+                <h2 href="#" onclick="redir();">Link 3</h2>
+            </div>
+            
+        </div>
+
+  </nav>
+  <div class="glassmorph" id="glassid">
+    <h2 class="maintext">Ravi Arora</h2>
+    <hr>
+    <h2 class="maintext">230846</h2>
+    <hr>
+    <h2 class="maintext">+91 9148692491</h2>
+    <hr>
+    <h2 class="maintext">raviarora23@iitk.ac.in</h2>
+  </div>
+</body>
+</html>
